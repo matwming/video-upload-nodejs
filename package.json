@@ -1,25 +1,26 @@
 {
-  "name": "node-sts-app-server",
-  "version": "1.0.0",
-  "description": "Node.js STS app server",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "Node.js",
-    "STS",
-    "OSS"
-  ],
-  "author": "rockuw <rockuw@gmail.com>",
-  "license": "MIT",
-  "engines": {
-    "node": ">=4"
-  },
-  "dependencies": {
-    "ali-oss": "^4.0.1",
-    "co": "^4.6.0",
-    "express": "^4.13.4",
-    "nodemon": "^1.18.9"
-  }
+ "name": "node-sts-app-server",
+ "version": "1.0.0",
+ "description": "Node.js STS app server",
+ "main": "index.js",
+ "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "nodemon index.js"
+ },
+ "keywords": [
+  "Node.js",
+  "STS",
+  "OSS"
+ ],
+ "author": "rockuw <rockuw@gmail.com>",
+ "license": "MIT",
+ "engines": {
+  "node": ">=4"
+ },
+ "dependencies": {
+  "ali-oss": "^4.0.1",
+  "co": "^4.6.0",
+  "express": "^4.13.4",
+  "nodemon": "^1.18.9"
+ }
 }

@@ -39,6 +39,10 @@ app.get("/", function(req, res) {
   });
 });
 
-app.listen(3001, function() {
- console.log("App started.");
+const port=process.env.PORT || 5000;
+
+
+app.listen(port, function() {
+
+ `server running on port${port}`
 });
